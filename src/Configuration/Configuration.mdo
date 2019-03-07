@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e24f3c0-bd23-4faa-9710-56ec633de9f2">
+  <name>СпецКурс_01</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спец курс 01</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cba578f4-5c30-40cc-91c6-9e12a8d12fc1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="990d3e94-6f32-4661-a7ed-47b67319d9d1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8fca429f-b28c-4850-8c71-d4344cc94ee1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="beea1895-cf8f-4d19-80e6-adc772a60c9c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3932093-e2c7-41de-8746-37afaf929f97"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="96110046-f864-40fe-8f09-10c1249e8399"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Павел Чистов</vendor>
+  <version>0.0.0.1</version>
+  <updateCatalogAddress>https://chistov.pro/repo/edu</updateCatalogAddress>
+  <includeHelpInContents>true</includeHelpInContents>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Конфигурация к курсу &quot;СпецКурс&quot;</value>
+  </briefInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Павел Чистов</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://chistov.pro</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://docs.google.com/document/d/e/2PACX-1vTi6qXclOL1OapMATfw_oG8Cu5bYFcU1-PxiWg-AUSRQ3w6aOzrj9X5uqhplw-a-P8MYuq2VyBx9o3y/pub</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="12c202cc-ff15-463c-9556-afdd82537348">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.Касса</subsystems>
+  <subsystems>Subsystem.Покупка</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Расчет</subsystems>
+  <commonModules>CommonModule.ВозвращаемыеЗначения</commonModules>
+  <commonModules>CommonModule.ВызовСервера</commonModules>
+  <commonModules>CommonModule.Расчет</commonModules>
+  <commandGroups>CommandGroup.СправочнаяИнформация</commandGroups>
+  <constants>Constant.АдресОрганизации</constants>
+  <constants>Constant.ВалютаУправленческогоУчета</constants>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ЮрЛица</catalogs>
+  <documents>Document.ВводПроизвольныхНачислений</documents>
+  <documents>Document.ОперацияБух</documents>
+  <documents>Document.ПереоценкаВалютныхСчетов</documents>
+  <documents>Document.ПКО</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.РКО</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documents>Document.Табель</documents>
+  <enums>Enum.ПолСотрудника</enums>
+  <enums>Enum.СпособыРасчета</enums>
+  <reports>Report.АнализПродаж1</reports>
+  <reports>Report.АнализПродаж2</reports>
+  <reports>Report.ДиаграммаГанта</reports>
+  <reports>Report.ОСВ</reports>
+  <reports>Report.ОстаткиПартийТоваров1</reports>
+  <reports>Report.ОстаткиПартийТоваров2</reports>
+  <reports>Report.ОстаткиТМЦ</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ОстаткиТоваровСРезервами</reports>
+  <reports>Report.Перерасчеты</reports>
+  <reports>Report.ПрибыльПоБУ</reports>
+  <reports>Report.СведенияДляНачисленияПремий</reports>
+  <dataProcessors>DataProcessor.ЗаполнениеКалендаря</dataProcessors>
+  <informationRegisters>InformationRegister.Календарь</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ОписаниеСвойствНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДанныеТабеля</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухгалтерии</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДопНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ДопНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ЖурналНачислений</calculationRegisters>
+</mdclass:Configuration>

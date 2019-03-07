@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a7af4c-4223-436c-9899-e29f90e9baa9">
+  <producedTypes>
+    <objectType typeId="69755793-d88e-427e-8c62-1be0f4818ab4" valueTypeId="ab0fa4c6-b001-4c24-96b4-f9c3d50f79b4"/>
+    <refType typeId="451d6d7f-b064-416d-a50c-e230b5d611be" valueTypeId="4b03da5f-3ba2-4667-8399-3ec5523f19db"/>
+    <selectionType typeId="a0032f85-4368-4fe2-b19b-061c1cb450a6" valueTypeId="d942aed7-9850-4efe-b91f-a38d53176ad6"/>
+    <listType typeId="9c94d2f5-b6dc-428f-9d80-e637b2f9184b" valueTypeId="b7ccbaed-588b-4e21-8ab5-887d7393df6d"/>
+    <managerType typeId="23152ee5-3c04-430a-9eaa-3d9e71a07aa5" valueTypeId="929d7a91-f368-4eae-aead-343e0b50b389"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b09b5653-9a89-4282-9977-d75816c3a62d">
+      <name>Тонна</name>
+      <description>Тонна</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="be8cb8a6-870f-4244-b982-a9ca20aeed64">
+      <name>Штука</name>
+      <description>Штука</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

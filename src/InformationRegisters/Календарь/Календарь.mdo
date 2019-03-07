@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8825f2-2f75-4957-802e-33410366ef39">
+  <producedTypes>
+    <selectionType typeId="9a5358b0-2412-4261-b3c7-2286e2e977a4" valueTypeId="b770d913-3f44-4f79-be79-5e7ca1e5b02a"/>
+    <listType typeId="aa775abb-9223-4505-91a8-4dad7f48afc6" valueTypeId="fdab41ed-16b9-4602-8af0-7fd40fc49c80"/>
+    <managerType typeId="106754e4-5c43-4269-bfa4-fdf34eabc2e0" valueTypeId="b5b22c55-0ea3-4ef4-a1d8-b5d3bc5a8627"/>
+    <recordSetType typeId="c3683145-eef7-4d11-858f-2f0df4042748" valueTypeId="6e74dc8a-eeda-4b59-9981-2cb4a72f4384"/>
+    <recordKeyType typeId="f6884d01-bf5d-4940-b870-c65378ced43b" valueTypeId="c74949eb-54c6-40a9-a612-c7c62ac41407"/>
+    <recordType typeId="3d801929-ea20-4933-9328-86d5ac356e42" valueTypeId="18fd2fbd-9f74-44d2-a7f1-cabc25f1b583"/>
+    <recordManagerType typeId="661215c6-faaf-45ca-943e-7bfaaa269223" valueTypeId="2d6d440e-3ca2-485f-8846-010c08aec79d"/>
+  </producedTypes>
+  <name>Календарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="334b9ae9-d5a8-481a-9dd4-5b41b5a253d2">
+    <name>Признак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="141f1ea9-9725-4bfe-8ae8-e451bcc2e760">
+    <name>КолЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол часов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac2f040f-1711-47e1-9948-b23d1bb7b619">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f102c504-5932-4c61-b8b5-9f6ef17ea18b">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="917d0bb8-1c09-48ec-9e02-10bfdaf974ad">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

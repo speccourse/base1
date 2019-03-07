@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bba811ff-6236-4d2b-8a66-6d3fc58bc9dc">
+  <producedTypes>
+    <objectType typeId="8ef1e721-c988-40fc-ac5e-c2501dd47a6a" valueTypeId="6b5c6c75-20fb-4d1e-aeaf-5c88e175833f"/>
+    <refType typeId="13c607aa-7982-4708-9ad2-6c2443784af5" valueTypeId="15e92ce4-473c-4ea8-888f-6b015411572c"/>
+    <selectionType typeId="2c86b94b-9da4-421d-87fc-c39d24dcc549" valueTypeId="6d16fa59-eeeb-49c9-b64c-22fbb4291d2c"/>
+    <listType typeId="1e07b7ab-c63b-4cee-bcbd-8798c9eef82b" valueTypeId="857e68a8-c874-45e8-a045-f1526f414195"/>
+    <managerType typeId="e52ee397-1e65-4647-9d5c-935a77d7c117" valueTypeId="da43c94e-0ab3-43c3-9aa7-945c7ece9743"/>
+  </producedTypes>
+  <name>ОперацияБух</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция бух</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОперацияБух.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОперацияБух.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОперацияБух.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <registerRecords>AccountingRegister.РегистрБухгалтерии</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e2087fa9-e829-45d5-b9d8-8199223d39d9">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЮрЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="428df4ca-bdf1-43b9-8334-3c0b1d0da61d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="985db9ac-fdde-44e8-aabb-ba6b33ed80b9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

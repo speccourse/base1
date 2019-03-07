@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56f7feed-0756-4a8c-a3cf-5cad13c76246">
+  <producedTypes>
+    <selectionType typeId="18efdace-d606-459e-880f-172c9f58eeb7" valueTypeId="7428aea2-a234-46a6-aaf5-13ffdbcd92a8"/>
+    <listType typeId="c5491ded-b40d-449d-b10e-471be9c7a89b" valueTypeId="a4b71419-85f3-4b67-a174-b7f50a9a91f9"/>
+    <managerType typeId="464f4af2-b009-441f-b870-2dbde5075d50" valueTypeId="00acef29-9c22-4d50-97b8-ee43ed2c5300"/>
+    <recordSetType typeId="6111ed7f-365b-4ab2-94c3-24200fe18658" valueTypeId="c62eedc6-764c-4fd9-baca-24416f987047"/>
+    <recordKeyType typeId="d66b8848-a128-4f41-ac2e-0edc1fec0842" valueTypeId="5ccebfd3-a134-481e-935d-68c600b2ad73"/>
+    <recordType typeId="5a08e8b8-baff-4c93-aebf-e6a4aa9418a7" valueTypeId="f0287329-c70a-4edf-9307-87fc637ac2bd"/>
+  </producedTypes>
+  <name>ДанныеТабеля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные табеля</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4e4db57d-5f5b-479f-9690-315b4a823b5f">
+    <name>КолДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол дней</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b1dcb751-2743-4173-9164-a73d7293de90">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

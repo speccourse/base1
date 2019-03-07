@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9860ed59-2bdb-4dae-acce-73828ad0df0d">
+  <producedTypes>
+    <selectionType typeId="8e9dd130-599f-4a46-9b5b-9dd41e949eeb" valueTypeId="f226cd56-dc09-44ae-8813-663ab0f8a845"/>
+    <listType typeId="678bb85d-5e22-4081-b80a-c5c67162bd63" valueTypeId="f9112468-39e2-406b-8aec-cb6ececa3e13"/>
+    <managerType typeId="ae2b7fdb-fe88-4a4c-b90e-1bd721b7bb03" valueTypeId="240c8c81-bb7a-4b0f-bdf2-a30f78120a9d"/>
+    <recordSetType typeId="972b6b65-8dc4-4f4c-a2d3-2c1240bdd792" valueTypeId="8cfe14e1-c0ab-40bf-b203-a7f9873ce9b7"/>
+    <recordKeyType typeId="cca4440c-c8aa-410a-92c4-cb96b4261573" valueTypeId="4a1412e4-fbc1-43c7-8a4c-b033e50ce218"/>
+    <recordType typeId="1446ed0c-d46b-4134-ba2e-55c6bf5140ea" valueTypeId="7a8c24ba-d3df-4457-93c9-5fd5eb651683"/>
+  </producedTypes>
+  <name>Касса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="900c364f-e519-49e2-b1c7-e511c1b98afa">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:AccumulationRegister>

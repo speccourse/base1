@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="322539dc-68b8-4504-89c7-fc637b7fea2b">
+  <producedTypes>
+    <objectType typeId="09225d62-5e34-4cc7-9144-86d0d1bdf60a" valueTypeId="b803455c-a6ae-43a1-a674-a9e55448b1ae"/>
+    <refType typeId="03f4d821-9186-40d5-964e-fc41d06f6b61" valueTypeId="9142a927-ab35-458e-87c6-1e71e6aa5f86"/>
+    <selectionType typeId="47d37368-b9cb-4eb8-8017-2694347d9bc2" valueTypeId="cf69fbc5-39bd-4021-9859-d5f3a85fb26e"/>
+    <listType typeId="a00484eb-39e9-4956-b1d6-16c8af3565c4" valueTypeId="6e43d70e-c510-4a2a-9254-41889ed90d1a"/>
+    <managerType typeId="12d4fa78-b0d6-478e-bf4c-68014dab2281" valueTypeId="c37a484c-962d-49fe-bcd0-d384d94914c2"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4f6327a6-996d-45d3-a3b7-4a2ded1198d4">
+      <name>БазоваяВалюта</name>
+      <description>Рубль</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

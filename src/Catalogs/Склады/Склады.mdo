@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e93aaf-f74c-4306-85a5-13a9e3953316">
+  <producedTypes>
+    <objectType typeId="84e52607-bd28-41bb-8e34-04401e7c214e" valueTypeId="7d7c7e6d-a226-4b11-b85c-13b06c0f853e"/>
+    <refType typeId="e20ff1d2-5e85-4608-94c3-2de4737a0340" valueTypeId="8f1e6934-2e27-46da-82df-f94445cd635a"/>
+    <selectionType typeId="fc518db1-2a25-4306-babc-069125675ff1" valueTypeId="e56b160a-00f4-4c90-a84a-9dc904f61d71"/>
+    <listType typeId="4e240903-ed5e-4312-8985-96fac2fdc6e1" valueTypeId="79420bab-ead0-4ee6-a48c-5913fd905e29"/>
+    <managerType typeId="72d4da15-fdc9-40a2-8cac-e49a928a519b" valueTypeId="49fdc862-7eb4-4a6b-8de6-eacb0f2b8ce0"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2a50c0bb-e985-4ca1-bfae-f82738819be9">
+      <name>ОсновнойСклад</name>
+      <description>Основной склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7ac40125-1442-45ca-96e7-411ab42b13bc">
+    <name>Реквизит1</name>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

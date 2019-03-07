@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecaf206f-42db-452d-8985-d53326e1441e">
+  <producedTypes>
+    <objectType typeId="6c715edf-d59e-4d3b-9f96-2ec11307fe70" valueTypeId="bf77e03e-e5a9-481b-a3c9-da3348c02380"/>
+    <managerType typeId="21cba751-e27e-4132-9e13-889715fb5ba8" valueTypeId="7f7742ad-6c85-4373-9c3b-6e87eb24ee08"/>
+  </producedTypes>
+  <name>СведенияДляНачисленияПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения для начисления премий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СведенияДляНачисленияПремий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="56331796-3cc3-4311-9c43-2790a9a612a2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

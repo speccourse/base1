@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e68974e-1bb3-46db-9ab2-c6b76e467611">
+  <producedTypes>
+    <managerType typeId="85dca873-1d8d-46ed-88d2-d0257ec4f536" valueTypeId="91356ebf-6569-4562-9243-83bd94b2a9b3"/>
+    <valueManagerType typeId="8b423dc3-9421-4bf7-91be-890d9d8176ef" valueTypeId="c11cb6c1-4dae-43e7-86e7-8480a8d2a467"/>
+  </producedTypes>
+  <name>ВалютаУправленческогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта управленческого учета</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

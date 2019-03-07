@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="221bd095-ce95-487b-b513-407a00065578">
+  <producedTypes>
+    <objectType typeId="1faf44ff-d4a4-41e5-bb02-b4e0a605336e" valueTypeId="7b659e31-29e2-4119-b8e9-9fb8b2beb178"/>
+    <refType typeId="2a279ef6-47f8-4fca-96a0-d15610eab041" valueTypeId="87dfec58-46de-409b-800c-98e8cf870f2e"/>
+    <selectionType typeId="e5fa1af9-60fe-4962-92c0-d31e88eadbe6" valueTypeId="80de6430-d539-4897-a557-72ea29883a1f"/>
+    <listType typeId="40744919-ff41-4366-8cc7-052050d1b7e4" valueTypeId="2d900f8b-3b71-4f9c-9d50-15a9d7d8f70d"/>
+    <managerType typeId="7f6d5e5d-edcf-4fbe-975f-eaf7f479e65f" valueTypeId="f8bdee1e-6724-48ab-a07c-6c6c0b1e24ef"/>
+  </producedTypes>
+  <name>ПереоценкаВалютныхСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переоценка валютных счетов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПереоценкаВалютныхСчетов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccountingRegister.РегистрБухгалтерии</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

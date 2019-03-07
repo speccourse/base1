@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3bfc23a-6db5-4740-9b5d-3ec9ce57211e">
+  <name>Расчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.Начисления</content>
+  <content>Document.ВводПроизвольныхНачислений</content>
+  <content>CalculationRegister.ЖурналНачислений</content>
+  <content>Report.Перерасчеты</content>
+  <content>InformationRegister.Календарь</content>
+  <content>DataProcessor.ЗаполнениеКалендаря</content>
+  <content>Report.ДиаграммаГанта</content>
+  <content>Catalog.ГрафикиРаботы</content>
+  <content>Document.Табель</content>
+  <content>AccumulationRegister.ДанныеТабеля</content>
+  <content>Report.СведенияДляНачисленияПремий</content>
+  <content>CalculationRegister.ДопНачисления</content>
+  <content>ChartOfCalculationTypes.ДопНачисления</content>
+  <content>Enum.СпособыРасчета</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Сотрудники</content>
+</mdclass:Subsystem>

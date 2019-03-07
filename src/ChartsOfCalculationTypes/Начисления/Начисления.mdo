@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="061b3270-db95-4d4d-93d6-079b2b41065e">
+  <producedTypes>
+    <objectType typeId="8255890d-d5d5-4429-9eee-de21e4fce793" valueTypeId="d3140793-17dc-4e4d-a9b5-2b3051c4e64f"/>
+    <refType typeId="4cc512fa-b7a5-4aff-b2cd-0e013c13307b" valueTypeId="ec79e06b-72a7-4cd9-9756-66a49146b0fc"/>
+    <selectionType typeId="99b720b1-7c56-46ad-bc28-3fde80316ffe" valueTypeId="fb52b7f6-f5da-4e4e-9b68-d842c7600451"/>
+    <listType typeId="f7046d34-a806-4b49-ad30-582d43dc0ba5" valueTypeId="511ffc63-409d-49d9-b321-165fd8d60bb8"/>
+    <managerType typeId="3a940949-5364-45ff-9dfd-4c9795d1203f" valueTypeId="9977ef99-40b3-4ad2-be34-9744009a999b"/>
+    <displacingCalculationTypesType typeId="ee6942bd-fba6-4a3e-a80a-0ef887cfc028" valueTypeId="94c52869-bf7c-4826-b48b-1914c2f327da"/>
+    <displacingCalculationTypesRowType typeId="7701e675-7cca-494d-9059-66b91cd0fc8e" valueTypeId="ccd83883-98bc-473b-b396-6d5d65e783fe"/>
+    <baseCalculationTypesType typeId="93a9d403-c070-4a81-9394-9b4bba023548" valueTypeId="47d23dcc-5f35-4b38-8850-0205f241d6be"/>
+    <baseCalculationTypesRowType typeId="b17968ff-e20b-440a-9c82-afd212c625a6" valueTypeId="4b7f4e62-54b0-4b0a-9f6b-b344ca886939"/>
+    <leadingCalculationTypesType typeId="8d0cb02f-8570-4b9f-a343-fc6ab09c0463" valueTypeId="f8b645b6-c551-4421-af2a-759280f2c3d4"/>
+    <leadingCalculationTypesRowType typeId="51ef93ab-0181-451f-98c6-d301cf825bd1" valueTypeId="54987d1e-a7c9-4f0d-ade6-673d872963dc"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.Начисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.Начисления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.Начисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="d5f75ff2-b729-4149-b8fa-7791b3dfa4b0">
+      <name>Больничный</name>
+      <description>Больничный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+      <base>ChartOfCalculationTypes.Начисления.ОкладЗаМесяц</base>
+      <base>ChartOfCalculationTypes.Начисления.ОкладПоДням</base>
+      <leading>ChartOfCalculationTypes.Начисления.ОкладЗаМесяц</leading>
+      <leading>ChartOfCalculationTypes.Начисления.ОкладПоДням</leading>
+    </items>
+    <items id="838066e2-d89b-4d79-ba8a-7405d78e36dd">
+      <name>ОкладЗаМесяц</name>
+      <description>Оклад за месяц</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.Начисления.Больничный</displaced>
+      <displaced>ChartOfCalculationTypes.Начисления.Прогул</displaced>
+    </items>
+    <items id="4a5bc253-814a-4d4e-9227-d65f7af56afa">
+      <name>ОкладПоДням</name>
+      <description>Оклад по дням</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.Начисления.Больничный</displaced>
+      <displaced>ChartOfCalculationTypes.Начисления.Прогул</displaced>
+    </items>
+    <items id="81c39037-9b91-46e0-a591-1a352ca044b2">
+      <name>ОплатаПоЧасам</name>
+      <description>Оплата по часам</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.Начисления.Прогул</displaced>
+    </items>
+    <items id="88993560-1525-4e9a-8e55-c629366fe090">
+      <name>Прогул</name>
+      <description>Прогул</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="49e0205b-b7a5-49fc-95c3-d305d327e0d2">
+    <name>УчитываетОтработанныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывает отработанные дни</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e7b1c49b-29a4-410a-9c3d-9525d2495ea1">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыРасчета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="86fe2071-4453-4cf1-84b6-0915ab8e9348">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:ChartOfCalculationTypes>

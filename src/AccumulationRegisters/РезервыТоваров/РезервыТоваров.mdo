@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180fbdc2-d90f-4b31-b42f-8d29d3029396">
+  <producedTypes>
+    <selectionType typeId="5c93310b-8f5e-4a83-9f02-7b13d2ef72c9" valueTypeId="7b201653-eeb5-44cc-9517-0d72c94cea5a"/>
+    <listType typeId="bb584413-de09-4000-9dbf-7e0917ec4e8c" valueTypeId="0b018289-0416-4ea0-8547-f1de819ce058"/>
+    <managerType typeId="a5f80c53-5170-4a9f-8322-6b23668edf77" valueTypeId="e107ca40-b72d-4473-9259-9063f513d72a"/>
+    <recordSetType typeId="674e3f01-e9c5-4c22-98e4-4606d4b94a05" valueTypeId="709f7845-c264-402e-841f-04d7cc03bf34"/>
+    <recordKeyType typeId="34d2d695-13c0-403a-bd81-9e2c3e7c4c2c" valueTypeId="5635af09-9d17-4766-be54-35e75789bd49"/>
+    <recordType typeId="6d5a370a-1f9f-47fb-8f8a-c72b561807ff" valueTypeId="9c171c56-a629-4a07-b430-82b3e6ccb73e"/>
+  </producedTypes>
+  <name>РезервыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервы товаров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fa8f7321-23b6-4a62-a696-61b9c458fb8b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9b528a25-761b-444a-9b83-ac2d50815a0c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bd085627-00d2-42b8-bff6-b14e7f682aaa">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d7c93031-889e-44eb-ac5a-c2eede05e2a8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7ab1bd79-5924-44bc-9e64-3e5c9c9565cf">
+    <name>ДатаОкончанияРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания резерва</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

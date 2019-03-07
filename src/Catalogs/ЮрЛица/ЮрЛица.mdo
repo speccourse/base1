@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee530fd0-4e1c-4cef-b1e0-a6be5f97414a">
+  <producedTypes>
+    <objectType typeId="10b96ee0-829d-4a06-b3e4-887caf831e1f" valueTypeId="59d69a95-5a33-4b11-9edd-9097b20878e3"/>
+    <refType typeId="25b20ea4-b25a-4c84-b3df-7ab3a566edeb" valueTypeId="cf5c89af-8ece-46a7-9c5c-c6647a1810f4"/>
+    <selectionType typeId="f9b7ef8a-9e34-4119-aa54-43b3d2fce29a" valueTypeId="3e490928-1c01-43b4-9a89-e30dc06c92ef"/>
+    <listType typeId="7cc43f85-60f2-4164-99e0-aa2eaf2d218c" valueTypeId="d7e0022d-71b8-4c3c-accf-32502d553535"/>
+    <managerType typeId="a7c9ed9f-0b73-4700-8494-d3957b52e6cc" valueTypeId="8046dadb-f3c7-4be9-a489-b69bc69de0a4"/>
+  </producedTypes>
+  <name>ЮрЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр лица</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЮрЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЮрЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8078e76c-ce25-4eca-a84c-1567b86a3702">
+      <name>ОсновнаяОрганизация</name>
+      <description>Основная организация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

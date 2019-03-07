@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8917843f-8d93-4a87-b959-1962b6dc638c">
+  <producedTypes>
+    <selectionType typeId="b14cc2c7-5c58-4260-8af9-827bbfbcd65e" valueTypeId="dd7ea47f-027d-47ab-9c4d-0590f2329bfb"/>
+    <listType typeId="7d4f33c7-50f3-4dcf-8cdc-96802b3e8d3c" valueTypeId="40a80098-0f22-416a-a785-eb782ace41b9"/>
+    <managerType typeId="037995e7-9b50-4fb7-9598-f371b28b9b78" valueTypeId="2f769813-2383-41de-a808-a3dfc91dda0e"/>
+    <recordSetType typeId="46ded53c-4522-4e77-9fc5-1a7f1089fdb7" valueTypeId="ff05d17c-b0db-4efb-bffd-9c22da5407ff"/>
+    <recordKeyType typeId="cfed908f-8159-44d3-ab43-101b2d68b9ed" valueTypeId="86d7645c-2979-4247-a279-33f553e4c3c0"/>
+    <recordType typeId="a39a8922-9a2e-48ce-b8b6-08ca681f2657" valueTypeId="2e502eec-bd72-460c-a721-2bc169f63a35"/>
+  </producedTypes>
+  <name>Взаиморасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Долги покупателей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="12276f74-6d95-4c8c-a789-6dcdfcf646e4">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f5a99b4d-3035-4d2c-8c3b-5cb740b33d2f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

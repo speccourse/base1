@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9315002a-18c9-4a07-998a-c4b6593586c0">
+  <producedTypes>
+    <objectType typeId="240e9e53-425a-4edc-b861-716a5fdd7a2d" valueTypeId="e166e91b-bb93-468c-ba79-2f9c8ec91a83"/>
+    <refType typeId="5963f3ed-7ea4-4c5e-8e75-77d31f4ba893" valueTypeId="ee6c2cd5-82d8-4ed7-8603-a7f299c57696"/>
+    <selectionType typeId="76c2f4cc-30d6-40d5-beea-39eea6a0e204" valueTypeId="a2a8d22a-4772-4bcf-a196-570392e728ca"/>
+    <listType typeId="628f2bf3-2627-4142-aa51-c76f821565f3" valueTypeId="b6b99e8b-236e-4391-b666-3f8c00923e20"/>
+    <managerType typeId="6ba9f1e8-a558-40a3-a324-5a1f44012e66" valueTypeId="646c0d37-f959-4036-a64b-50bcc705c6d7"/>
+    <containerType typeId="12e8cf83-8af8-4ba9-b35b-96ebdc0ba9f8" valueTypeId="b3ad0d03-08d2-4ce5-b584-1eb81c653039"/>
+  </producedTypes>
+  <name>ВидыСвойствНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды свойств номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.ДополнительныеСвойстваНоменклатуры</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Контрагенты</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
